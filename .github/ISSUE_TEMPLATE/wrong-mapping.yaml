@@ -1,0 +1,24 @@
+name: Feil mapping
+description: Send inn forslag til endring på mapping som er feil
+title: "[Feil mapping]: "
+labels: ["mapping", "feil mapping"]
+assignees:
+  - panragon
+body:
+  - type: input
+    id: codesystem
+    attributes:
+      label: Kodesystem og version
+      description: Fyll inn kodesystemet feilen ligger i og hvilken versjon (f.eks. ICD-10 version 2022)
+  - type: input
+    id: current-map
+    attributes:
+      label: Nåværende map
+    validations:
+      required: true
+  - type: textarea
+    id: desired-map
+    attributes:
+      label: Beskrivelse av foreslått map
+    validations:
+      required: true
