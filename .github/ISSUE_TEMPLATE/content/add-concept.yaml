@@ -1,6 +1,6 @@
 name: Legg til begrep
 description: Foreslå et nytt begrep skal legges til
-title: "[Nytt begrep]: "
+title: "[Nytt begrep 2]: "
 labels: ["innhold", "nytt begrep"]
 assignees:
   - panragon
