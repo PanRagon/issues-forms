@@ -50,7 +50,7 @@ body:
       label: Begrunnelse for forespørsel
     validations:
       required: true
-    - type: input
+  - type: input
     id: source
     attributes:
       label: Kilde
