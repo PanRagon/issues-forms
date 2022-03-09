@@ -18,23 +18,23 @@ body:
         - Norsk Bokmål
         - Engelsk
         - Norsk Nynorsk
-     validations:
+    validations:
       required: true
-    - type: input
-      id: FSN
-      attributes:
-        label: Nytt FSN (Fullstendig Spesifisert Navn)
-      validations:
-        required: true
-    - type: input
-      id: preferred-term
-      attributes:
-        label: Ny foretrukket term
-      validations:
-        required: true
-    - type: input
-      id: synonym
-      attributes:
-        label: Ny synonym
-      validations:
-        required: true
+  - type: input
+    id: FSN
+    attributes:
+      label: Nytt FSN (Fullstendig Spesifisert Navn)
+    validations:
+      required: true
+  - type: input
+    id: preferred-term
+    attributes:
+      label: Ny foretrukket term
+    validations:
+      required: true
+  - type: input
+    id: synonym
+    attributes:
+      label: Ny synonym
+    validations:
+      required: true
