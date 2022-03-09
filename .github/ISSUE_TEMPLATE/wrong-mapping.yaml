@@ -14,11 +14,13 @@ body:
     id: current-map
     attributes:
       label: Nåværende map
+      description: Hvordan er mappingen gjort i systemet
     validations:
       required: true
   - type: textarea
     id: desired-map
     attributes:
       label: Beskrivelse av foreslått map
+      description: Beskriv hvordan mappingen bør gjøres og hvorfor det skal endres.
     validations:
       required: true
