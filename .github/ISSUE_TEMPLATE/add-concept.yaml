@@ -38,3 +38,21 @@ body:
       label: Ny synonym
     validations:
       required: true
+  - type: input
+    id: parent
+    attributes:
+      label: Foreldrebregrep (nærmeste overbegrep)
+    validations:
+      required: true
+  - type: input
+    id: explanation
+    attributes:
+      label: Begrunnelse for forespørsel
+    validations:
+      required: true
+    - type: input
+    id: source
+    attributes:
+      label: Kilde
+    validations:
+      required: true
