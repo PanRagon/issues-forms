@@ -1,0 +1,40 @@
+name: Legg til begrep
+description: Foreslå et nytt begrep skal legges til
+title: "[Nytt begrep]: "
+labels: ["innhold", "nytt begrep"]
+assignees:
+  - panragon
+body:
+  - type: input
+    id: summary
+    attributes:
+      label: Sammendrag
+      description: Sammendrag av endringer du foreslår
+  - type: dropdown
+    id: language
+    attributes:
+      label: Språkbasert referansesett
+      options:
+        - Norsk Bokmål
+        - Engelsk
+        - Norsk Nynorsk
+     validations:
+      required: true
+    - type: input
+      id: FSN
+      attributes:
+        label: Nytt FSN (Fullstendig Spesifisert Navn)
+      validations:
+        required: true
+    - type: input
+      id: preferred-term
+      attributes:
+        label: Ny foretrukket term
+      validations:
+        required: true
+    - type: input
+      id: synonym
+      attributes:
+        label: Ny synonym
+      validations:
+        required: true
